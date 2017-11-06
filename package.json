@@ -10,7 +10,8 @@
         "coverage": "gulp coverage",
         "build": "gulp"
     },
-    "contributors": [{
+    "contributors": [
+        {
             "name": "Yemel Jardi",
             "email": "yemel@bitpay.com"
         },
@@ -52,10 +53,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/bitchk-wallet/bitcore-p2p.git"
+        "url": "https://github.com/yangcoin/bitcore-p2p.git"
     },
     "dependencies": {
-        "bitcore-lib": "git://github.com/bitchk-wallet/bitcore-lib.git#bitchk",
+        "bitcore-lib": "git://github.com/yangcoin/yangcore-lib.git",
         "bloom-filter": "^0.2.0",
         "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
         "socks5-client": "^0.3.6"
